@@ -86,10 +86,10 @@ export default function Navbar() {
 							onClick={() => setIsOpen(false)}
 							aria-label="Close menu"
 						>
-							<X className="h-5 w-5" />
+							{/* <X className="h-5 w-5" /> */}
 						</Button>
 
-						<nav className="flex flex-col space-y-6 mt-8">
+						<nav className="flex flex-col space-y-6 mt-8 p-[20px]">
 							<Link
 								href="/service"
 								className="text-lg uppercase tracking-wide hover:text-primary transition-colors"
