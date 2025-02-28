@@ -10,7 +10,7 @@ export default function Navbar() {
 	const [isOpen, setIsOpen] = useState(false);
 
 	return (
-		<header className="w-full py-4 px-6 md:px-12 flex items-center justify-between border-b">
+		<header className="w-full py-4 px-6 md:px-12 flex items-center justify-between">
 			<div className="flex flex-col">
 				<Link href="/" className="text-center">
 					<h1 className="text-xl md:text-2xl font-serif tracking-wide">

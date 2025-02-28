@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 export default function Hero() {
 	return (
 		<section
-			className="relative h-[calc(100vh-80px)] w-full overflow-hidden"
+			className="relative h-[calc(100vh-80px)] w-full overflow-hidden bg-white"
 			aria-labelledby="hero-heading"
 			role="region"
 		>
@@ -21,17 +21,17 @@ export default function Hero() {
 				src="/hero.jpg"
 				alt="Elegant manicured nails with abstract designs"
 				fill
-				style={{ objectFit: "cover", opacity: 0.75 }}
+				className="hero-img"
 				priority
 				sizes="100vw"
 				quality={90}
 			/>
 
 			{/* Overlay to ensure text readability */}
-			<div className="absolute inset-0 bg-black/30" aria-hidden="true" />
+			<div className="absolute inset-0" aria-hidden="true" />
 
 			{/* Content */}
-			<div className="relative h-full flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 text-center">
+			<div className="relative h-full flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 max-w-screen-xl mx-auto text-center">
 				<span className="text-xs sm:text-sm uppercase tracking-widest mb-2 sm:mb-4 text-white/90">
 					Self-Love Club
 				</span>

@@ -31,11 +31,11 @@ export default [
 	{
 		name: "Gel Add On Pedicure",
 		description: "Add gel to your pedicure.",
-		price: "$9 (10 mins extra)",
+		price: "$20",
 	},
 	{
 		name: "Gel Without Pedicure (gel on Toe nails)",
 		description: "Gel application on toe nails without pedicure.",
-		price: "$35",
+		price: "$38",
 	},
 ];
