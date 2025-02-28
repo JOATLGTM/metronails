@@ -21,7 +21,7 @@ export default function Hero() {
 				src="/hero.jpg"
 				alt="Elegant manicured nails with abstract designs"
 				fill
-				style={{ objectFit: "cover" }}
+				style={{ objectFit: "cover", opacity: 0.75 }}
 				priority
 				sizes="100vw"
 				quality={90}

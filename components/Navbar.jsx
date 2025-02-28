@@ -12,12 +12,14 @@ export default function Navbar() {
 	return (
 		<header className="w-full py-4 px-6 md:px-12 flex items-center justify-between border-b">
 			<div className="flex flex-col">
-				<h1 className="text-xl md:text-2xl font-serif tracking-wide">
-					METRO NAILS
-				</h1>
-				<span className="text-sm text-muted-foreground text-center">
-					London
-				</span>
+				<Link href="/" className="text-center">
+					<h1 className="text-xl md:text-2xl font-serif tracking-wide">
+						METRO NAILS
+					</h1>
+					<span className="text-sm text-muted-foreground">
+						London
+					</span>
+				</Link>
 			</div>
 
 			{/* Desktop Navigation */}
@@ -38,20 +40,21 @@ export default function Navbar() {
 				</nav>
 
 				<div className="flex items-center gap-4">
-					<Link
-						href="#"
+					<a
+						href="https://www.instagram.com/metronails_forya25/"
+						target="_blank"
 						aria-label="Instagram"
 						className="p-2 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-primary"
 					>
 						<Instagram className="h-5 w-5 text-gray-700 hover:text-primary transition-colors" />
-					</Link>
-					<Link
+					</a>
+					{/* <a
 						href="#"
 						aria-label="Facebook"
 						className="p-2 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-primary"
 					>
 						<Facebook className="h-5 w-5 text-gray-700 hover:text-primary transition-colors" />
-					</Link>
+					</a> */}
 				</div>
 
 				<Button className="border border-black bg-transparent text-black hover:bg-black hover:text-white rounded-none px-6 transition-colors">
