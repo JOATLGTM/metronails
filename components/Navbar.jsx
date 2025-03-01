@@ -29,14 +29,14 @@ export default function Navbar() {
 						href="/service"
 						className="text-sm uppercase tracking-wide hover:text-primary transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-primary"
 					>
-						Service
+						Pricing
 					</Link>
-					<Link
+					{/* <Link
 						href="/contact"
 						className="text-sm uppercase tracking-wide hover:text-primary transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-primary"
 					>
 						Contact
-					</Link>
+					</Link> */}
 				</nav>
 
 				<div className="flex items-center gap-4">
