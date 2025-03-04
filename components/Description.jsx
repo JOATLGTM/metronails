@@ -76,7 +76,7 @@ export default function Description() {
 								nail techs to not only work, but feel valued and
 								cared for. And, we're just getting started.
 							</motion.p>
-							<motion.div
+							{/* <motion.div
 								initial={{ opacity: 0, scale: 0.9 }}
 								animate={
 									isInView
@@ -88,7 +88,7 @@ export default function Description() {
 								<Button className="bg-gradient-to-r from-blue-400 to-purple-400 hover:from-blue-500 hover:to-purple-500 text-white rounded-full px-10 py-6 text-sm uppercase tracking-wider transition-all duration-200 transform hover:scale-105">
 									Our Story
 								</Button>
-							</motion.div>
+							</motion.div> */}
 						</div>
 					</motion.div>
 				</div>

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export default function Hero() {
@@ -43,10 +44,15 @@ export default function Hero() {
 					Bringing fashion to{" "}
 					<span className="block mt-1 sm:mt-2">your fingertips.</span>
 				</h1>
-
-				<Button className="mt-6 sm:mt-8 border-2 border-white bg-transparent text-white hover:bg-white hover:text-black rounded-none px-6 sm:px-8 py-4 sm:py-6 text-sm sm:text-base uppercase tracking-wider transition-colors focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-black">
-					Book an Appointment
-				</Button>
+				<Link
+					href={
+						"https://www.fresha.com/book-now/metro-nails-rsnmd0qp/all-offer?id=2565982&share&pId=2485996"
+					}
+				>
+					<Button className="mt-6 sm:mt-8 border-2 border-white bg-transparent text-white hover:bg-white hover:text-black rounded-none px-6 sm:px-8 py-4 sm:py-6 text-sm sm:text-base uppercase tracking-wider transition-colors focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-black">
+						Book an Appointment
+					</Button>
+				</Link>
 			</div>
 		</section>
 	);

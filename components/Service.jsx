@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
 import maniServices from "@/data/manicure";
+import Link from "next/link";
 
 export default function Services() {
 	const ref = useRef(null);
@@ -81,9 +82,15 @@ export default function Services() {
 							transition={{ duration: 0.5, delay: 0.6 }}
 							className="pt-8"
 						>
-							<Button className="bg-[#8B1F41] hover:bg-[#6B1832] text-white rounded-none px-8 py-3 text-sm transition-colors">
-								Book Now
-							</Button>
+							<Link
+								href={
+									"https://www.fresha.com/book-now/metro-nails-rsnmd0qp/all-offer?id=2565982&share&pId=2485996"
+								}
+							>
+								<Button className="bg-[#8B1F41] hover:bg-[#6B1832] text-white rounded-none px-8 py-3 text-sm transition-colors">
+									Book Now
+								</Button>
+							</Link>
 						</motion.div>
 					</motion.div>
 				</div>
@@ -155,9 +162,15 @@ export default function Services() {
 							transition={{ duration: 0.5, delay: 0.6 }}
 							className="pt-8"
 						>
-							<Button className="bg-[#8B1F41] hover:bg-[#6B1832] text-white rounded-none px-8 py-3 text-sm transition-colors">
-								Book Now
-							</Button>
+							<Link
+								href={
+									"https://www.fresha.com/book-now/metro-nails-rsnmd0qp/all-offer?id=2565982&share&pId=2485996"
+								}
+							>
+								<Button className="bg-[#8B1F41] hover:bg-[#6B1832] text-white rounded-none px-8 py-3 text-sm transition-colors">
+									Book Now
+								</Button>
+							</Link>
 						</motion.div>
 					</motion.div>
 				</div>

@@ -56,10 +56,15 @@ export default function Navbar() {
 						<Facebook className="h-5 w-5 text-gray-700 hover:text-primary transition-colors" />
 					</a> */}
 				</div>
-
-				<Button className="border border-black bg-transparent text-black hover:bg-black hover:text-white rounded-none px-6 transition-colors">
-					Book Appointment
-				</Button>
+				<Link
+					href={
+						"https://www.fresha.com/book-now/metro-nails-rsnmd0qp/all-offer?id=2565982&share&pId=2485996"
+					}
+				>
+					<Button className="border border-black bg-transparent text-black hover:bg-black hover:text-white rounded-none px-6 transition-colors">
+						Book Appointment
+					</Button>
+				</Link>
 			</div>
 
 			{/* Mobile Navigation */}
@@ -121,13 +126,18 @@ export default function Navbar() {
 									<Facebook className="h-6 w-6 text-gray-700 hover:text-primary transition-colors" />
 								</Link>
 							</div>
-
-							<Button
-								className="mt-4 w-full border border-black bg-transparent text-black hover:bg-black hover:text-white rounded-none px-6 transition-colors"
-								onClick={() => setIsOpen(false)}
+							<Link
+								href={
+									"https://www.fresha.com/book-now/metro-nails-rsnmd0qp/all-offer?id=2565982&share&pId=2485996"
+								}
 							>
-								Book Appointment
-							</Button>
+								<Button
+									className="mt-4 w-full border border-black bg-transparent text-black hover:bg-black hover:text-white rounded-none px-6 transition-colors"
+									onClick={() => setIsOpen(false)}
+								>
+									Book Appointment
+								</Button>
+							</Link>
 						</nav>
 					</SheetContent>
 				</Sheet>
