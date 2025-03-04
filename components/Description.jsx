@@ -26,7 +26,7 @@ export default function Description() {
 						transition={{ duration: 0.8, ease: "easeOut" }}
 					>
 						<Image
-							src={"/placeholder.svg"}
+							src={"/nail_collection.jpg"}
 							alt="Nail salon environment showing nail technicians and polish display"
 							fill
 							className="object-cover"
