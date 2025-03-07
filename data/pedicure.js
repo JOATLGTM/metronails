@@ -1,41 +1,50 @@
 export default [
 	{
-		name: "Classic Pedicure",
+		name: "Volcano Luxury Pedicure",
 		description:
-			"We'll trim your toenails, clean up your cuticles, perform a short lotion massage, and apply fresh polish to your toes.",
-		price: "$37",
+			"A luxurious pedicure experience with special treatments to leave your feet feeling pampered and refreshed.",
+		price: "$80",
 	},
 	{
-		name: "Platinum Pedicure",
+		name: "Gel without pedicure",
 		description:
-			"Everything from the Classic Pedi plus calluses treatment, a sugar scrub exfoliation to get rid of dead skin cells, and apply hot towels to soothe the skin.",
-		price: "$42",
+			"A gel application service that includes basic foot care and soothing treatments.",
+		price: "$38",
 	},
 	{
-		name: "Deluxe Pedicure",
+		name: "Gel Add on Pedicure",
 		description:
-			"Everything from the Platinum Pedi plus Collagen Cream Mask, Collagen Muscle-Relaxing Gel, and finished with Essential Oil Massage.",
-		price: "$49",
-	},
-	{
-		name: "Paraffin Pedicure",
-		description:
-			"The pedicure will hydrate and detoxify your feet as we add paraffin wax to everything our Deluxe Pedicure includes.",
-		price: "$62",
-	},
-	{
-		name: "Princess Pedicure",
-		description: "Same as Classic Pedicure (for kids under 10 years old).",
-		price: "$28",
-	},
-	{
-		name: "Gel Add On Pedicure",
-		description: "Add gel to your pedicure.",
+			"Enhance your pedicure with a gel polish application and additional soothing treatments.",
 		price: "$20",
 	},
 	{
-		name: "Gel Without Pedicure (gel on Toe nails)",
-		description: "Gel application on toe nails without pedicure.",
+		name: "Little Princess Pedicure",
+		description:
+			"A fun and gentle pedicure experience designed for children under 10 years old.",
+		price: "$28",
+	},
+	{
+		name: "Cloud Nine Pedicure",
+		description:
+			"A relaxing pedicure that includes a gel polish application for a smooth, lasting finish.",
+		price: "$65",
+	},
+	{
+		name: "Pampered Pedicure",
+		description:
+			"A pedicure with gel application to provide a long-lasting, polished look for your feet.",
+		price: "$53",
+	},
+	{
+		name: "Smooth Steps Pedicure",
+		description:
+			"A basic pedicure service with gel application to help keep your nails looking fresh and smooth.",
+		price: "$45",
+	},
+	{
+		name: "Classic Pedicure",
+		description:
+			"A simple and elegant pedicure service that includes nail care and a fresh polish.",
 		price: "$38",
 	},
 ];

@@ -5,6 +5,13 @@ import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
 import maniServices from "@/data/manicure";
+import pediServices from "@/data/pedicure";
+import acrylicServices from "@/data/acrylic";
+import addonServices from "@/data/addon";
+import gelxServices from "@/data/gelx";
+import polishchangeServices from "@/data/polishchange";
+import removalServices from "@/data/removal";
+import dipServices from "@/data/dip";
 import Link from "next/link";
 
 export default function Services() {
@@ -31,14 +38,8 @@ export default function Services() {
 						</span>
 
 						<h2 className="text-3xl md:text-4xl font-serif tracking-tight text-gray-900 mb-6">
-							PRICING FOR MANICURE
+							FOR MANICURE
 						</h2>
-
-						<p className="text-gray-600 mb-12 text-lg">
-							We believe that your perfect nails are the result of
-							the continuous search for excellence and attention
-							to details.
-						</p>
 
 						<div className="space-y-8">
 							{maniServices.map((service, index) => (
@@ -113,12 +114,6 @@ export default function Services() {
 						<h2 className="text-3xl md:text-4xl font-serif tracking-tight text-gray-900 mb-6">
 							PRICING FOR MANICURE
 						</h2>
-
-						<p className="text-gray-600 mb-12 text-lg">
-							We believe that your perfect nails are the result of
-							the continuous search for excellence and attention
-							to details.
-						</p>
 
 						<div className="space-y-8">
 							{services.map((service, index) => (
