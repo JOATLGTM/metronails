@@ -48,13 +48,14 @@ export default function Navbar() {
 					>
 						<Instagram className="h-5 w-5 text-gray-700 hover:text-primary transition-colors" />
 					</a>
-					{/* <a
-						href="#"
+					<a
+						href="https://www.facebook.com/profile.php?id=61573829711693"
+						target="_blank"
 						aria-label="Facebook"
 						className="p-2 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-primary"
 					>
 						<Facebook className="h-5 w-5 text-gray-700 hover:text-primary transition-colors" />
-					</a> */}
+					</a>
 				</div>
 				<Link
 					href={

@@ -74,6 +74,14 @@ export default function Footer() {
 							Instagram
 						</a>
 					</div>
+					<div className="flex justify-center md:justify-end gap-6">
+						<a
+							href="https://www.facebook.com/profile.php?id=61573829711693"
+							className="text-gray-600 hover:text-rose-500 transition-colors"
+						>
+							Facebook
+						</a>
+					</div>
 				</div>
 			</div>
 		</footer>
