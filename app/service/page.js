@@ -14,12 +14,6 @@ import removalServices from "@/data/removal";
 import dipServices from "@/data/dip";
 import Link from "next/link";
 
-export const metadata = {
-	title: "Nail Services & Pricing | Metro Nails London, Ohio",
-	description:
-		"Explore our premium nail services including manicures, pedicures, and nail art. View our competitive pricing and book your appointment at Metro Nails in London, Ohio.",
-};
-
 export default function Services() {
 	const ref = useRef(null);
 	const isInView = useInView(ref, { once: true, margin: "-100px" });
