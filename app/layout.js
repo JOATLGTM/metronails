@@ -14,8 +14,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-	title: "Metro Nails",
-	description: "Best nail salon in London Ohio",
+	title: "Metro Nails | Premium Nail Salon in London, Ohio",
+	description:
+		"Experience luxury nail care at Metro Nails in London, Ohio. Professional manicures, pedicures, and nail art services in a safe, ethical environment. Book your appointment today!",
 };
 
 export default function RootLayout({ children }) {

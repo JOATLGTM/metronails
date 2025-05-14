@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Allow: /service
+Allow: /sitemap.xml
+
+Sitemap: https://www.metronailsforya.com/sitemap.xml 
