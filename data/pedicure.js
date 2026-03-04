@@ -9,7 +9,7 @@ export default [
 		name: "Gel without pedicure",
 		description:
 			"A gel application service that includes basic foot care and soothing treatments.",
-		price: "$38",
+		price: "$35",
 	},
 	{
 		name: "Gel Add on Pedicure",
@@ -45,6 +45,6 @@ export default [
 		name: "Classic Pedicure",
 		description:
 			"A simple and elegant pedicure service that includes nail care and a fresh polish.",
-		price: "$38",
+		price: "$35",
 	},
 ];

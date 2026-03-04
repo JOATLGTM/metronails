@@ -3,7 +3,7 @@ export default [
 		name: "Dip French",
 		description:
 			"Achieve a chic and sophisticated French manicure with a dip powder application, creating a durable and long-lasting result that gives your nails a sleek, professional look.",
-		price: "$55",
+		price: "$60",
 	},
 	{
 		name: "Take Off Dip with service",
@@ -15,12 +15,12 @@ export default [
 		name: "Dip with Tips",
 		description:
 			"Enhance your nails with dip powder applied over tips for added length and strength, offering a durable and elegant manicure that lasts.",
-		price: "$59",
+		price: "$60",
 	},
 	{
 		name: "Dip on Natural nail",
 		description:
 			"Get a natural-looking dip powder manicure directly on your natural nails, providing a strong and long-lasting finish with a lightweight feel.",
-		price: "$49",
+		price: "$55",
 	},
 ];
