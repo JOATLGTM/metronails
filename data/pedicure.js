@@ -9,7 +9,7 @@ export default [
 		name: "Gel without pedicure",
 		description:
 			"A gel application service that includes basic foot care and soothing treatments.",
-		price: "$35",
+		price: "$38",
 	},
 	{
 		name: "Gel Add on Pedicure",
@@ -21,7 +21,7 @@ export default [
 		name: "Little Princess Pedicure",
 		description:
 			"A fun and gentle pedicure experience designed for children under 10 years old.",
-		price: "$28",
+		price: "$32",
 	},
 	{
 		name: "Cloud Nine Pedicure",
@@ -33,7 +33,7 @@ export default [
 		name: "Pampered Pedicure",
 		description:
 			"A pedicure with gel application to provide a long-lasting, polished look for your feet.",
-		price: "$53",
+		price: "$55",
 	},
 	{
 		name: "Smooth Steps Pedicure",
@@ -45,6 +45,6 @@ export default [
 		name: "Classic Pedicure",
 		description:
 			"A simple and elegant pedicure service that includes nail care and a fresh polish.",
-		price: "$35",
+		price: "$38",
 	},
 ];

@@ -15,12 +15,12 @@ export default [
 		name: "New Fullset w/Gel (L)",
 		description:
 			"Start with a fresh new full set of nails with gel application, designed for larger nails, offering a sturdy and polished look that lasts.",
-		price: "$75",
+		price: "$70",
 	},
 	{
 		name: "New Fullset w/Gel (M)",
 		description:
 			"Get a brand-new full set with a gel application for medium-sized nails, ensuring a smooth finish and long-lasting shine.",
-		price: "$70",
+		price: "$65",
 	},
 ];

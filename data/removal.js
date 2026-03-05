@@ -3,13 +3,13 @@ export default [
 		name: "Acrylic / Gel X Removal",
 		description:
 			"A removal service for acrylic or Gel X nails, ensuring a clean and smooth finish.",
-		price: "$15",
+		price: "$20",
 	},
 	{
 		name: "Dip powder removal",
 		description:
 			"A simple service to remove dip powder from your nails for a fresh start.",
-		price: "$10",
+		price: "$15",
 	},
 	{
 		name: "Gel Polish Removal",
