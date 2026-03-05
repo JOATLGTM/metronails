@@ -15,13 +15,13 @@ export default [
 		name: "Chrome",
 		description:
 			"Get a sleek, mirror-like chrome finish on your nails with this high-shine gel application that adds a futuristic and bold touch to your nail style.",
-		price: "$20",
+		price: "$15",
 	},
 	{
 		name: "Shape (Coffin, Almond, Stiletto)",
 		description:
 			"Choose from a variety of trendy shapes for your nails, including coffin, almond, or stiletto. This service is perfect for defining your nail style with sharp precision.",
-		price: "$10",
+		price: "$7",
 	},
 	{
 		name: "Paraffin Feet",
@@ -39,18 +39,18 @@ export default [
 		name: "Deep French",
 		description:
 			"Achieve a bold and sophisticated French manicure with a deeper contrast between the pink and white tips, creating a more dramatic look.",
-		price: "$20",
+		price: "$15",
 	},
 	{
 		name: "Reg French",
 		description:
 			"Classic and timeless, the regular French manicure adds a clean, subtle contrast with white tips on a natural base for a sophisticated finish.",
-		price: "$10",
+		price: "$8",
 	},
 	{
 		name: "Nail Art / Design",
 		description:
 			"Express your creativity with custom nail art and designs, from simple patterns to elaborate artwork. Price may vary depending on the complexity of the design.",
-		price: "from $15",
+		price: "from $10",
 	},
 ];
